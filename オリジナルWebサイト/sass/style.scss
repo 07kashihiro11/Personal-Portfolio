@@ -1,0 +1,5 @@
+@use "color";
+
+body{
+    color: color.$main_color;
+}
