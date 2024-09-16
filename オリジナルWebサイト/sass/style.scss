@@ -1,5 +1,18 @@
 @use "color";
 
-body{
-    color: color.$main_color;
+body {
+  font-family: "Playpen Sans", "Noto Sans JP", sans-serif;
+  color: color.$cl-black;
+}
+
+.button {
+  &__icon {
+  }
+
+  &__icon-path {
+    fill: color.$white;
+  }
+
+  &__text {
+  }
 }
