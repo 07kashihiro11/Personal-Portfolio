@@ -1,0 +1,21 @@
+@use "color";
+
+body {
+  font-family: "Playpen Sans", "Noto Sans JP", sans-serif;
+  color: color.$cl-black;
+}
+
+.button {
+  &--bg{
+    background-color: color.$white;
+  }
+  &__icon {
+  }
+
+  &__icon-path {
+    fill: color.$white;
+  }
+
+  &__text {
+  }
+}
